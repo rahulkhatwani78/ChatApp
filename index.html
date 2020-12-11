@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat+ : Realtime Node.js-Socket.io Chat App</title>
+        <!--The below script connects server and the client-->
+        <script defer src="/socket.io/socket.io.js"></script>
+        <script defer type="text/javascript" src="js/client.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <nav class="logo">
+            <h1 style="display: inline;">Welcome to</h1>
+            <img src="./logo.png" alt="logo" />
+            <h1 style="display: inline;">Chat+</h1>
+        </nav>
+        <div class="container"></div>
+        <div class="send">
+            <form action="#" id="send-container">
+                <input
+                    type="text"
+                    name="msginp"
+                    id="msginp"
+                    placeholder="Type a message"
+                    autocomplete="off"
+                />
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </body>
+</html>
